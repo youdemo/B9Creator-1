@@ -45,6 +45,7 @@ int main(int argc, char *argv[])
 {
     B9NativeApp a(argc, argv);
 
+	
     QPixmap pixmap(CROSS_OS_GetDirectoryFromLocationTag("APPLICATION_DIR")+"/"+"splash.png");
     QSplashScreen splash(pixmap,Qt::WindowStaysOnTopHint);
     //processEvents();

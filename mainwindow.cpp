@@ -76,10 +76,10 @@ MainWindow::MainWindow(QWidget *parent) :
 
         //do things like move, delete old files from previous
         //installations
-        m_pUpdateManager->TransitionFromPreviousVersions();
+        //m_pUpdateManager->TransitionFromPreviousVersions();
 
         //Schedule an auto update check
-        QTimer::singleShot(1000,m_pUpdateManager,SLOT(AutoCheckForUpdates()));
+        //QTimer::singleShot(1000,m_pUpdateManager,SLOT(AutoCheckForUpdates()));
 
 
     //create Printer Model Manager, withough importing definitions - it will start with a default printer

@@ -239,4 +239,7 @@ unix:!macx: TARGET = B9Creator
 unix:!macx: LIBS += -lGLU
 unix:!macx: LIBS += -lz
 
-
+TRANSLATIONS+=B9Creator_en.ts B9Creator_zh_CN.ts
+CONFIG += localize_deployment
+SYMBIAN_SUPPORTED_LANGUAGES += zh_CN
+SYMBIAN_LANG.zh_CN = 31
