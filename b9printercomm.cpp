@@ -69,6 +69,8 @@ void B9PrinterStatus::reset(){
     lastMsgTime.start();
     bResetInProgress = false;
     setLampHrs(-1); // unknown
+
+	
 }
 
 void B9PrinterStatus::setVersion(QString s)
@@ -182,6 +184,7 @@ B9PrinterComm::B9PrinterComm()
     m_bCloneBlanks = false;
     m_Status.reset();
     m_iWarmUpDelayMS = 15000;
+	bAttachVirtual= true;
     qDebug() << "B9Creator COMM Start";
     QTimer::singleShot(500, this, SLOT(RefreshCommPortItems())); // Check in .5 seconds
 }
@@ -252,6 +255,20 @@ void B9PrinterComm::RefreshCommPortItems()
     QString sCommPortStatus = MSG_SEARCHING;
     QString sCommPortDetailedStatus = MSG_SEARCHING;
     QString sPortName;
+	int eTime = 1000;  
+	if(bAttachVirtual&&m_serialDevice==NULL)
+	{
+		 if(OpenB9CreatorCommPort("virtual")){
+                // Connected!
+                sCommPortStatus = MSG_CONNECTED;
+                sCommPortDetailedStatus = "Connected on Port: "+m_serialDevice->portName();
+                eTime = 5000;  // Re-check connection again in 5 seconds
+                if(m_serialDevice && m_Status.isCurrentVersion())
+					startWatchDogTimer();  // Start B9Creator "crash" watchDog
+                return;
+            }
+		
+	}
     // Load the current enumerated available ports
     *pPorts = pEnumerator->getPorts();
 
@@ -283,7 +300,7 @@ void B9PrinterComm::RefreshCommPortItems()
     }
 
     // Now we search for a B9Creator
-    int eTime = 1000;  // 1 second search cylce time for while not connected
+   // 1 second search cylce time for while not connected
 
     sNoFirmwareAurdinoPort = "";  // Reset to null string before scanning ports
     if(pPorts->size()>0){
@@ -387,7 +404,12 @@ bool B9PrinterComm::OpenB9CreatorCommPort(QString sPortName)
 
 
     // Attempt to establish a serial connection with the B9Creator
-    m_serialDevice = new QextSerialPort(sPortName, QextSerialPort::EventDriven, this);
+	if(sPortName=="virtual")
+	{
+		m_serialDevice = new QVirtualSerialPort(QextSerialPort::EventDriven, this);
+	}else{
+		m_serialDevice = new QextSerialPort(sPortName, QextSerialPort::EventDriven, this);
+	}
     if (m_serialDevice->open(QIODevice::ReadWrite) == true) {
         m_serialDevice->setBaudRate(BAUD115200);
         m_serialDevice->setDataBits(DATA_8);

@@ -210,6 +210,8 @@ B9Terminal::B9Terminal(QWidget *parent, Qt::WFlags flags) :
     m_pPReleaseCycleTimer = new QTimer(this);
     connect(m_pPReleaseCycleTimer, SIGNAL(timeout()), this, SLOT(onReleaseCycleTimeout()));
     connect(pPrinterComm, SIGNAL(BC_PrintReleaseCycleFinished()), this, SLOT(onBC_PrintReleaseCycleFinished()));
+
+	onScreenCountChanged(0);
 }
 
 B9Terminal::~B9Terminal()
@@ -1132,7 +1134,11 @@ void B9Terminal::onScreenCountChanged(int iCount){
             pPrinterComm->getProjectorStatus() != B9PrinterStatus::PS_COOLING &&
             pPrinterComm->getProjectorStatus() != B9PrinterStatus::PS_UNKNOWN)) {
         // if the projector is not turned off, we better put up the blank screen now!
+#ifdef _DEBUG
+				pProjector->show();
+#else
         pProjector->showFullScreen();
+#endif
     }
     //else warnSingleMonitor();
 }

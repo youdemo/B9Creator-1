@@ -199,8 +199,8 @@ public:
     void flush();
     qint64 bytesAvailable() const;
     bool canReadLine() const;
-    QByteArray readAll();
-
+    virtual QByteArray readAll();
+	virtual qint64 write(const QByteArray &data){return QIODevice::write(data);}
     ulong lastError() const;
 
     ulong lineStatus();

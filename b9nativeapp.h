@@ -52,7 +52,7 @@ public:
     {
 		//QTranslator qt_translator;
 		app_translator = new QTranslator();
-		if(true) {
+		if(false) {
 		// Qt¡¯s own translations
 		//qt_translator.load("qt_zh");
 		//a.installTranslator( &qt_translator );
