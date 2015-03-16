@@ -1134,11 +1134,17 @@ void B9Terminal::onScreenCountChanged(int iCount){
             pPrinterComm->getProjectorStatus() != B9PrinterStatus::PS_COOLING &&
             pPrinterComm->getProjectorStatus() != B9PrinterStatus::PS_UNKNOWN)) {
         // if the projector is not turned off, we better put up the blank screen now!
-#ifdef _DEBUG
+	if(getIsVirtualDevice())
+	{
+				screenGeometry.setY(20);
+				screenGeometry.setWidth(1024);
+				screenGeometry.setHeight(768);
+				pProjector->setGeometry(screenGeometry);
 				pProjector->show();
-#else
-        pProjector->showFullScreen();
-#endif
+	}else{
+			
+			pProjector->showFullScreen();
+		}
     }
     //else warnSingleMonitor();
 }

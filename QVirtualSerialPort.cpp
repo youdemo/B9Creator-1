@@ -31,6 +31,12 @@ qint64 QVirtualSerialPort::write(const QByteArray &data)
 	}
 	else if(strCmd=="S\n"){
 		m_Bufbytes.append("S100\n");
+		m_Bufbytes.append("F\n");
+	}else if(strCmd=="B0\n"){
+		m_Bufbytes.append("F\n");
+	}
+	else if(strCmd=="N0\n"){
+		m_Bufbytes.append("F\n");
 	}
 	else{
 		m_Bufbytes.append(data);

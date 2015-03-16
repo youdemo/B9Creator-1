@@ -240,7 +240,7 @@ private slots:
 
 public:
     bool m_bIsPrinting;
-
+	bool bAttachVirtual;
 private:
     QextSerialPort *m_serialDevice;
     QextSerialEnumerator *pEnumerator;		// enumerator for finding available comm ports
@@ -258,6 +258,6 @@ private:
     QTime startWarmingTime;
     int m_iWarmUpDelayMS;
     bool m_bIsMirrored;
-	bool bAttachVirtual;
+	
 };
 #endif // B9PRINTERCOMM_H
