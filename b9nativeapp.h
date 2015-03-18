@@ -45,18 +45,20 @@
 
 class B9NativeApp : public QApplication
 {
+private:
+	QTranslator *app_translator;
 public:
     B9NativeApp(int &argc, char **argv) : QApplication(argc, argv)
     {
-		QTranslator qt_translator;
-		QTranslator app_translator;
-		if(true) {
+		//QTranslator qt_translator;
+		app_translator = new QTranslator();
+		if(false) {
 		// Qt¡¯s own translations
 		//qt_translator.load("qt_zh");
 		//a.installTranslator( &qt_translator );
 		// application translation
-		app_translator.load(":/B9Creator_zh_CN.qm");
-		this->installTranslator( &app_translator );
+		app_translator->load(":/B9Creator_zh_CN.qm");
+		qApp->installTranslator(app_translator );
 		}
         mainWindow = new MainWindow;
         this->argc = argc;
@@ -67,6 +69,7 @@ public:
     }
     ~B9NativeApp()
     {
+		app_translator->deleteLater();
         delete mainWindow;
     }
 

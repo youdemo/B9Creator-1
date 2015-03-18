@@ -91,7 +91,10 @@ LogFileManager::LogFileManager(QString sLogFile, QString sHeader)
     QTextStream ts(&outFile);
     ts << sHeader << "\r\n\r" << endl;
     outFile.close();
+#ifdef _DEBUG
+#else
     qInstallMsgHandler(messageHandler);
+#endif
 }
 
 LogFileManager::~LogFileManager()

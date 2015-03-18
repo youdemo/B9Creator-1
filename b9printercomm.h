@@ -41,6 +41,7 @@
 #include <QObject>
 #include <QTime>
 #include <QtDebug>
+#include "QVirtualSerialPort.h"
 
 #define FIRMWAREUPDATESPEED 115200
 #define FIRMWAREHEXFILE "B9Firmware.hex"
@@ -149,6 +150,7 @@ private:
     int m_iNativeY;
     int m_iXYPizelSize;
     int m_iHalfLife;
+	
 };
 
 /////////////////////////////////////////////////////////////////////////////
@@ -238,7 +240,7 @@ private slots:
 
 public:
     bool m_bIsPrinting;
-
+	bool bAttachVirtual;
 private:
     QextSerialPort *m_serialDevice;
     QextSerialEnumerator *pEnumerator;		// enumerator for finding available comm ports
@@ -256,5 +258,6 @@ private:
     QTime startWarmingTime;
     int m_iWarmUpDelayMS;
     bool m_bIsMirrored;
+	
 };
 #endif // B9PRINTERCOMM_H

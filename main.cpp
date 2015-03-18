@@ -51,7 +51,7 @@ int main(int argc, char *argv[])
     //processEvents();
     a.mainWindow->setSplash(&splash);
     a.mainWindow->show();
-    a.mainWindow->showSplash();
+    //a.mainWindow->showSplash();
 
     a.ProccessArguments();
 

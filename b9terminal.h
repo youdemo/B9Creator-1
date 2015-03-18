@@ -102,7 +102,7 @@ public:
     void createNormalizedMask(double XYPS=0.1, double dZ = 257.0, double dOhMM = 91.088); //call when we show or resize
 
     int getXYPixelSize(){return pPrinterComm->getXYPixelSize();}
-
+	bool getIsVirtualDevice(){return pPrinterComm->bAttachVirtual;}
     void setIsPrinting(bool bFlag){
         pPrinterComm->m_bIsPrinting = bFlag;}
 

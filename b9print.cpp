@@ -211,7 +211,10 @@ void B9Print::print3D(CrushedPrintJob* pCPJ, int iXOff, int iYOff, int iTbase, i
     ui->lcdNumberTime->display(m_pTerminal->getEstCompleteTime(m_iCurLayerNumber,m_iLastLayer,m_pCPJ->getZLayermm(),m_iTbase+m_iTover).toString("hh:mm"));
     QString sTimeUpdate = updateTimes();
     setProjMessage("Total Layers to print: "+QString::number(m_iLastLayer)+"  "+sTimeUpdate);
-
+	if(m_pTerminal->getIsVirtualDevice())
+	{
+		m_iPrintState = PRINT_SETUP1;
+	}
     if(!bPrintPreview){
         // Turn on the projector and set the warm up time in ms
         ui->pushButtonPauseResume->setEnabled(false);
