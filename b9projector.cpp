@@ -517,6 +517,9 @@ void B9Projector::drawCBM()
         QPainter mPainter(&mCurSliceImage);
         mPainter.setCompositionMode(QPainter::CompositionMode_SourceIn);
         mPainter.drawImage(0,0,m_NormalizedMask);
+		
+		if(mpCPJ->getCurrentSlice()<mpCPJ->getTotalLayers())
+			mpCPJ->preoSlice(&mCurSliceImage, m_xOffset, m_yOffset);
     }
 
     // Here we copy the resulting normalized slice to the mImage

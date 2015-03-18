@@ -171,6 +171,8 @@ public:
 	void inflateCurrentSlice(QImage* pImage, int xOffset = 0, int yOffset = 0, bool bUseNaturalSize = false);
     void inflateSlice(int sliceIndex, QImage* pImage, int xOffset = 0, int yOffset = 0, bool bUseNaturalSize = false);
 
+	void preoSlice(QImage* pImage,int xOffset = 0, int yOffset = 0, bool bUseNaturalSize = false);
+
     // attempts to replace the current slice with the crushed version of pImage stored at m_CurrentSlice.  Adjusts the job's width and height if needed
     bool crushCurrentSlice(QImage* pImage);
     bool crushSlice(int sliceIndex, QImage* pImage);

@@ -555,7 +555,40 @@ void CrushedPrintJob::inflateCurrentSlice(QImage* pImage, int xOffset, int yOffs
 {
     inflateSlice(m_CurrentSlice, pImage, xOffset, yOffset, bUseNaturalSize);
 }
+void CrushedPrintJob::preoSlice(QImage* pImage,int xOffset, int yOffset, bool bUseNaturalSize)
+{
+	int sliceIndx = m_CurrentSlice;
+	//QImage base = QImage(pImage->width(),pImage->height(),QImage::Format_ARGB32_Premultiplied);
+	//base.fill(qRgba(255,0,0,0));
+	
+	//QPainter mPainter(pImage);
+	//mPainter.setCompositionMode(QPainter::RasterOp_SourceAndDestination);
 
+	//mPainter.drawImage(0,0,base);
+	QImage preImg = QImage(pImage->width(),pImage->height(),QImage::Format_ARGB32_Premultiplied);
+	preImg.fill(qRgba(0,0,0,0));
+	getCBMSlice(sliceIndx+1)->inflateSlice(&preImg, xOffset, yOffset, bUseNaturalSize);
+	for(int i=0;i<pImage->width();i++)
+	{
+		for(int j=0;j<pImage->height();j++)
+		{
+			QRgb rg1 = pImage->pixel(i,j);
+			QRgb rg2 = preImg.pixel(i,j);
+			
+			if(rg1==0&&rg2!=0)
+			{
+				pImage->setPixel(i,j,qRgba(255,0,0,255));
+			}else{
+				pImage->setPixel(i,j,rg1);
+			}
+			//qDebug()<<rg;
+		}
+	}
+	//mPainter.setCompositionMode(QPainter::CompositionMode_Xor);
+	//QImage preImg = QImage(pImage->width(),pImage->height(),QImage::Format_ARGB32_Premultiplied);
+	//getCBMSlice(sliceIndx-1)->inflateSlice(&preImg, xOffset, yOffset, bUseNaturalSize);
+	//mPainter.drawImage(0,0,preImg);
+}
 void CrushedPrintJob::inflateSlice(int sliceIndx, QImage* pImage, int xOffset, int yOffset, bool bUseNaturalSize) {
 	float WinWidth;
 	float WinHeight;
