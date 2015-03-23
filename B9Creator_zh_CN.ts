@@ -28,7 +28,7 @@ Do you want to save your changes?</source>
     <message>
         <location filename="b9edit/b9edit.cpp" line="212"/>
         <source>Unable To Save Job</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">保存文件失败</translation>
     </message>
     <message>
         <location filename="b9edit/b9edit.cpp" line="226"/>
@@ -44,25 +44,25 @@ Do you want to save your changes?</source>
         <location filename="b9edit/b9edit.cpp" line="451"/>
         <location filename="b9edit/b9edit.cpp" line="546"/>
         <source>XY Resolution</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">XY 轴解析度</translation>
     </message>
     <message>
         <location filename="b9edit/b9edit.cpp" line="452"/>
         <location filename="b9edit/b9edit.cpp" line="547"/>
         <source>XY Resolution in Microns:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">XY 轴解析度(微米)</translation>
     </message>
     <message>
         <location filename="b9edit/b9edit.cpp" line="456"/>
         <location filename="b9edit/b9edit.cpp" line="551"/>
         <source>Z Resolution</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Z 轴解析度</translation>
     </message>
     <message>
         <location filename="b9edit/b9edit.cpp" line="457"/>
         <location filename="b9edit/b9edit.cpp" line="552"/>
         <source>Layer Thickness in Microns:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">层厚(微米)</translation>
     </message>
     <message>
         <location filename="b9edit/b9edit.cpp" line="917"/>
@@ -105,57 +105,57 @@ Do you want to save your changes?</source>
     <message>
         <location filename="b9edit/b9edit.ui" line="35"/>
         <source>B9Creator - Edit</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">涛峰科技 - 3D打印机</translation>
     </message>
     <message>
         <location filename="b9edit/b9edit.ui" line="73"/>
         <source>Job Properties</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">任务属性</translation>
     </message>
     <message>
         <location filename="b9edit/b9edit.ui" line="79"/>
         <source>Job Name:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">任务名称:</translation>
     </message>
     <message>
         <location filename="b9edit/b9edit.ui" line="92"/>
         <source>Job Description:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">任务描述:</translation>
     </message>
     <message utf8="true">
         <location filename="b9edit/b9edit.ui" line="102"/>
         <source>X-Y Pixels (µm):</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">X-Y 像素 (µm):</translation>
     </message>
     <message utf8="true">
         <location filename="b9edit/b9edit.ui" line="112"/>
         <source>Z Layer (µm):</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Z 厚度 (µm):</translation>
     </message>
     <message>
         <location filename="b9edit/b9edit.ui" line="122"/>
         <source>Slices :</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">切片:</translation>
     </message>
     <message>
         <location filename="b9edit/b9edit.ui" line="152"/>
         <source>&amp;File</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">文件</translation>
     </message>
     <message>
         <location filename="b9edit/b9edit.ui" line="164"/>
         <source>&amp;View</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">视图</translation>
     </message>
     <message>
         <location filename="b9edit/b9edit.ui" line="191"/>
         <source>&amp;Import Images...</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">导入图片...</translation>
     </message>
     <message>
         <location filename="b9edit/b9edit.ui" line="194"/>
         <source>Import Slices from a series of images</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">导入从一组图像序列中导入切片</translation>
     </message>
     <message>
         <location filename="b9edit/b9edit.ui" line="203"/>
@@ -190,22 +190,22 @@ Do you want to save your changes?</source>
     <message>
         <location filename="b9edit/b9edit.ui" line="229"/>
         <source>Flood Fill</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">洪水填满法</translation>
     </message>
     <message>
         <location filename="b9edit/b9edit.ui" line="234"/>
         <source>Flood Void</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">洪水无效</translation>
     </message>
     <message>
         <location filename="b9edit/b9edit.ui" line="239"/>
         <source>Show Unsupported Pixels</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">显示不支持的像素点</translation>
     </message>
     <message>
         <location filename="b9edit/b9edit.ui" line="248"/>
         <source>&amp;Slice Manager...</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">切片管理...</translation>
     </message>
     <message>
         <location filename="b9edit/b9edit.ui" line="257"/>
@@ -215,12 +215,12 @@ Do you want to save your changes?</source>
     <message>
         <location filename="b9edit/b9edit.ui" line="260"/>
         <source>New</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">新建</translation>
     </message>
     <message>
         <location filename="b9edit/b9edit.ui" line="263"/>
         <source>Creates A New Job</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">创建一个新任务</translation>
     </message>
     <message>
         <location filename="b9edit/b9edit.ui" line="266"/>
@@ -235,17 +235,17 @@ Do you want to save your changes?</source>
     <message>
         <location filename="b9edit/b9edit.ui" line="274"/>
         <source>Saves the current Job to a new file</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">另存为当前任务</translation>
     </message>
     <message>
         <location filename="b9edit/b9edit.ui" line="279"/>
         <source>&amp;Export Images...</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">导出图像...</translation>
     </message>
     <message>
         <location filename="b9edit/b9edit.ui" line="284"/>
         <source>About B9Edit...</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">关于视图...</translation>
     </message>
 </context>
 <context>
@@ -253,17 +253,17 @@ Do you want to save your changes?</source>
     <message>
         <location filename="b9layout/b93dmain.ui" line="17"/>
         <source>B9Creator - Layout</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">3D打印模型布局</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="73"/>
         <source>Models</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">模型设置</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="76"/>
         <source>Organize your models</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">调整模型</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="82"/>
@@ -372,7 +372,7 @@ Do you want to save your changes?</source>
         <location filename="b9layout/b93dmain.ui" line="273"/>
         <location filename="b9layout/b93dmain.ui" line="276"/>
         <source>Duplicate the selected model(s)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">复制选择的模型</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="279"/>
@@ -384,7 +384,7 @@ Do you want to save your changes?</source>
         <location filename="b9layout/b93dmain.ui" line="286"/>
         <location filename="b9layout/b93dmain.ui" line="289"/>
         <source>Delete the selected Model(s) from the layout</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">从布局中删除选中的模型</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="292"/>
@@ -396,7 +396,7 @@ Do you want to save your changes?</source>
         <location filename="b9layout/b93dmain.ui" line="310"/>
         <location filename="b9layout/b93dmain.ui" line="868"/>
         <source>Listing of all models in the current layout</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">列出在当前布局中所有的模型</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="366"/>
@@ -420,13 +420,13 @@ Do you want to save your changes?</source>
         <location filename="b9layout/b93dmain.ui" line="406"/>
         <location filename="b9layout/b93dmain.ui" line="409"/>
         <source>Size of model in the x axis</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">模型的X轴长度</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="426"/>
         <location filename="b9layout/b93dmain.ui" line="429"/>
         <source>Size of model in the y axis</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">模型的Y轴长度</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="436"/>
@@ -439,7 +439,7 @@ Do you want to save your changes?</source>
         <location filename="b9layout/b93dmain.ui" line="446"/>
         <location filename="b9layout/b93dmain.ui" line="449"/>
         <source>Size of model in the z axis</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">模型的Z轴长度</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="464"/>
@@ -450,19 +450,19 @@ Do you want to save your changes?</source>
         <location filename="b9layout/b93dmain.ui" line="480"/>
         <location filename="b9layout/b93dmain.ui" line="483"/>
         <source>Position of model&apos;s center in the x axis</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">模型中心离X轴的位置</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="497"/>
         <location filename="b9layout/b93dmain.ui" line="500"/>
         <source>Position of model&apos;s center in the y axis</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">模型中心离Y轴的位置</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="514"/>
         <location filename="b9layout/b93dmain.ui" line="517"/>
         <source>Position of model&apos;s center in the z axis</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">模型中心离Z轴的位置</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="532"/>
@@ -484,7 +484,7 @@ Do you want to save your changes?</source>
         <location filename="b9layout/b93dmain.ui" line="591"/>
         <location filename="b9layout/b93dmain.ui" line="594"/>
         <source>Rotation of model about its z axis</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">绕Z轴的旋转角度</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="628"/>
@@ -495,30 +495,30 @@ Do you want to save your changes?</source>
         <location filename="b9layout/b93dmain.ui" line="644"/>
         <location filename="b9layout/b93dmain.ui" line="650"/>
         <source>Model&apos;s x axis scaling factor</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">X轴缩放因子</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="664"/>
         <location filename="b9layout/b93dmain.ui" line="667"/>
         <source>Model&apos;s y axis scaling factor</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Y轴缩放因子</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="681"/>
         <location filename="b9layout/b93dmain.ui" line="684"/>
         <source>Model&apos;s z axis scaling factor</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Z轴缩放因子</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="695"/>
         <location filename="b9layout/b93dmain.ui" line="698"/>
         <source>Select to lock the model&apos;s x, y &amp; z axis scaling factors</source>
-        <translation type="unfinished">锁定比例</translation>
+        <translation type="unfinished">锁定X,Y,Z轴的缩放比例</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="701"/>
         <source>Lock Aspect Ratio</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">锁定比例</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="711"/>
@@ -529,7 +529,7 @@ Do you want to save your changes?</source>
         <location filename="b9layout/b93dmain.ui" line="720"/>
         <location filename="b9layout/b93dmain.ui" line="723"/>
         <source>Apply entered changes to selected model&apos;s parameters</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">应用所有改变的参数</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="726"/>
@@ -539,17 +539,17 @@ Do you want to save your changes?</source>
     <message>
         <location filename="b9layout/b93dmain.ui" line="743"/>
         <source>Supports</source>
-        <translation type="unfinished">支持</translation>
+        <translation type="unfinished">支撑</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="746"/>
         <source>Edit supports for the selected model</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">为选定的模型编辑支撑</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="758"/>
         <source>Edit the foundation under the model</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">编辑模型的底板</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="761"/>
@@ -559,7 +559,7 @@ Do you want to save your changes?</source>
     <message>
         <location filename="b9layout/b93dmain.ui" line="782"/>
         <source>Choose the shape of the foundation</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">旋转底板的形状</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="791"/>
@@ -588,145 +588,145 @@ Do you want to save your changes?</source>
     <message>
         <location filename="b9layout/b93dmain.ui" line="835"/>
         <source>Change the foundation thickness</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">改变底板的厚度</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="850"/>
         <source>Support List:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">支撑列表</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="865"/>
         <source>Listing of all the supports belonging to the selected model</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">列出选择模型所有的支撑</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="896"/>
         <source>Edit selected support properties</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">编辑选择支撑的属性</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="899"/>
         <source>Support Parameters:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">支撑参数</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="930"/>
         <location filename="b9layout/b93dmain.ui" line="1695"/>
         <source>Top</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">顶部</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="938"/>
         <location filename="b9layout/b93dmain.ui" line="1075"/>
         <location filename="b9layout/b93dmain.ui" line="1148"/>
         <source>Shape:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">图形</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="962"/>
         <source>Radius(mm):</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">半径(mm)</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="976"/>
         <source>Length(mm):</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">长度(mm)</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="990"/>
         <location filename="b9layout/b93dmain.ui" line="1197"/>
         <source>Penetration(mm):</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">渗透(mm)</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1015"/>
         <location filename="b9layout/b93dmain.ui" line="1222"/>
         <source>Angle Factor:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">角度因子:</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1067"/>
         <source>Mid</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">中部</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1096"/>
         <location filename="b9layout/b93dmain.ui" line="1169"/>
         <source>Radius:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">半径(mm)</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1110"/>
         <location filename="b9layout/b93dmain.ui" line="1183"/>
         <source>Length:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">长度(mm)</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1140"/>
         <location filename="b9layout/b93dmain.ui" line="1824"/>
         <source>Bottom</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">底部</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1270"/>
         <source>Drops the bottom of the support below the top</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">丢弃掉底部下部的支撑</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1273"/>
         <source>Make Vertical</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">创建竖向支撑</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1280"/>
         <source>Make Straight</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">创建直线支撑</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1299"/>
         <source>Light</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">细</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1312"/>
         <source>Medium</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">中</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1325"/>
         <source>Heavy</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">粗</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1356"/>
         <source>File</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">文件</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1368"/>
         <source>Edit</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">编辑</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1374"/>
         <source>View</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">视图</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1391"/>
         <source>Model Actions</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">模型动作</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1399"/>
         <source>Model Tools</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">模型工具</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1409"/>
         <source>Support Tools</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">支撑工具</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1425"/>
@@ -735,7 +735,7 @@ Do you want to save your changes?</source>
         <location filename="b9layout/b93dmain.ui" line="1469"/>
         <location filename="b9layout/b93dmain.ui" line="1480"/>
         <source>toolBar</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">工具栏</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1458"/>
@@ -745,17 +745,17 @@ Do you want to save your changes?</source>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1495"/>
         <source>New</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">新建</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1498"/>
         <source>Create new layout</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">创建一个新的布局</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1501"/>
         <source>Create a new (blank) layout</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">创建一个空布局</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1504"/>
@@ -765,17 +765,17 @@ Do you want to save your changes?</source>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1513"/>
         <source>Open...</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">打开...</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1516"/>
         <source>Open a layout</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">打开一个布局</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1519"/>
         <source>Open a layout file (.b9l)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">打开一个布局文件(.b9l)</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1522"/>
@@ -785,17 +785,17 @@ Do you want to save your changes?</source>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1531"/>
         <source>Save</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">保存</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1534"/>
         <source>Save current Layout</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">保存当前布局</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1537"/>
         <source>Save current Layout file (.b9l)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">保存当前布局文件(.b9l)</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1540"/>
@@ -805,29 +805,29 @@ Do you want to save your changes?</source>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1545"/>
         <source>Save As...</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">另存为...</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1548"/>
         <source>Save current layout as...</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">另存为当前布局...</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1551"/>
         <source>Save current layout as... (.b9l)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">另存为当前布局...(.b9l)</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1556"/>
         <location filename="b9layout/b93dmain.ui" line="1785"/>
         <source>Delete</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">删除</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1559"/>
         <location filename="b9layout/b93dmain.ui" line="1562"/>
         <source>Delete selected Model</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">删除选定的模型</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1565"/>
@@ -838,29 +838,29 @@ Do you want to save your changes?</source>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1570"/>
         <source>Center View</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">中间视图</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1578"/>
         <source>Select</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">选定</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1581"/>
         <location filename="b9layout/b93dmain.ui" line="1584"/>
         <source>Select a model (Ctrl +click to select multiple models)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">选择一个模型(Ctrl +click 可以选择多个模型)</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1592"/>
         <source>Move</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">移动</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1595"/>
         <location filename="b9layout/b93dmain.ui" line="1598"/>
         <source>Move selected Model(s) (Shift +Click &amp; Drag to move in Z axis)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">移动所选择模型 (Shift +Click &amp; 沿z轴拖动)</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1601"/>
@@ -870,13 +870,13 @@ Do you want to save your changes?</source>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1609"/>
         <source>Spin</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">水平旋转</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1612"/>
         <location filename="b9layout/b93dmain.ui" line="1615"/>
         <source>Spin selected Model(s) about their z axis</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">沿Z轴旋转选定的模型</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1618"/>
@@ -886,30 +886,30 @@ Do you want to save your changes?</source>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1626"/>
         <source>Scale</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">缩放</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1629"/>
         <location filename="b9layout/b93dmain.ui" line="1632"/>
         <source>Scale all axis</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">缩放X,Y,Z</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1637"/>
         <source>Snap To Floor</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">贴合底板</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1640"/>
         <location filename="b9layout/b93dmain.ui" line="1643"/>
         <source>Drop To Floor (Move selected object in Z until lowest portion is at zero)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">下降至底部(移动所选择的模型到Z轴0位置)</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1651"/>
         <location filename="b9layout/b93dmain.ui" line="1654"/>
         <source>Duplicate selected model</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">复制选定的模型</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1657"/>
@@ -919,23 +919,23 @@ Do you want to save your changes?</source>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1662"/>
         <source>Debug Slices</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">调试切面</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1670"/>
         <source>Add Model...</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">添加模型</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1673"/>
         <location filename="b9layout/b93dmain.ui" line="1676"/>
         <source>Add a Model to the Layout</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">为布局添加模型</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1690"/>
         <source>Perspective</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">透视</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1698"/>
@@ -945,7 +945,7 @@ Do you want to save your changes?</source>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1703"/>
         <source>Right</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">右</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1706"/>
@@ -955,7 +955,7 @@ Do you want to save your changes?</source>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1711"/>
         <source>Front</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">前</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1714"/>
@@ -966,18 +966,18 @@ Do you want to save your changes?</source>
         <location filename="b9layout/b93dmain.ui" line="1719"/>
         <location filename="b9layout/b93dmain.ui" line="1727"/>
         <source>Edit Supports</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">编辑支撑</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1735"/>
         <source>Orientate</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">垂直旋转</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1738"/>
         <location filename="b9layout/b93dmain.ui" line="1741"/>
         <source>Orientate model around its x and y axis</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">沿着X,Y轴定向模型</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1744"/>
@@ -988,42 +988,42 @@ Do you want to save your changes?</source>
         <location filename="b9layout/b93dmain.ui" line="1752"/>
         <location filename="b9layout/b93dmain.ui" line="1755"/>
         <source>Resets Orientation and Spin to 0 on the model</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">重置模型旋转到原始位置</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1766"/>
         <source>Add Support Structures</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">增加支撑结构</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1774"/>
         <source>Modify</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">修改</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1777"/>
         <source>Move Support Structures (hold shift for rotation)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">移动支撑结构(按住shift键旋转)</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1788"/>
         <source>Delete Support Structures</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">删除支撑结构</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1793"/>
         <source>Delete Support</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">删除支撑</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1801"/>
         <source>Export...</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">导出...</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1806"/>
         <source>Elevate</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">抬高</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1809"/>
@@ -1033,47 +1033,47 @@ Do you want to save your changes?</source>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1814"/>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">后</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1819"/>
         <source>Left</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">左</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1835"/>
         <source>Contour Aid</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">轮廓辅助</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1838"/>
         <source>Shows a contour of the model while adding supports.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">添加支撑的时候显示模型的轮廓</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1846"/>
         <source>X Ray Vision</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">X 光透视</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1849"/>
         <source>See through models to place support in hard to reach areas</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">查看通过模型支撑难以到达的区域</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1860"/>
         <source>Support Modify Occlusion</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">支撑修改遮挡</translation>
     </message>
     <message>
         <location filename="b9layout/b93dmain.ui" line="1863"/>
         <source>Hide surrounding supports while modifying.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">当修改时隐藏周围的支撑</translation>
     </message>
     <message>
         <location filename="b9layout/b9layout.cpp" line="206"/>
         <source>Open Layout</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">打开一个布局文件</translation>
     </message>
     <message>
         <location filename="b9layout/b9layout.cpp" line="206"/>
@@ -1089,12 +1089,12 @@ Do you want to save your changes?</source>
     <message>
         <location filename="b9layout/b9layout.cpp" line="225"/>
         <source>Unable To Open Layout</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">打开文件失败</translation>
     </message>
     <message>
         <location filename="b9layout/b9layout.cpp" line="255"/>
         <source>Save Layout</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">保存布局</translation>
     </message>
     <message>
         <location filename="b9layout/b9layout.cpp" line="257"/>
@@ -1104,22 +1104,22 @@ Do you want to save your changes?</source>
     <message>
         <location filename="b9layout/b9layout.cpp" line="266"/>
         <source>Unable To Save Project</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">保存工程文件失败</translation>
     </message>
     <message>
         <location filename="b9layout/b9layout.cpp" line="935"/>
         <source>Open Model</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">打开模型</translation>
     </message>
     <message>
         <location filename="b9layout/b9layout.cpp" line="935"/>
         <source>Models (*.stl)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">模型 (*.stl)</translation>
     </message>
     <message>
         <location filename="b9layout/b9layout.cpp" line="2198"/>
         <source>Export Slices</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">导出切片</translation>
     </message>
     <message>
         <location filename="b9layout/b9layout.cpp" line="2200"/>
@@ -1129,7 +1129,7 @@ Do you want to save your changes?</source>
     <message>
         <location filename="b9layout/b9layout.cpp" line="2460"/>
         <source>Export To STL</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">导出STL文件</translation>
     </message>
     <message>
         <location filename="b9layout/b9layout.cpp" line="2462"/>
@@ -2205,7 +2205,7 @@ This will be the altitude for the next layer.
         <location filename="dlgcyclesettings.ui" line="166"/>
         <location filename="dlgcyclesettings.ui" line="354"/>
         <source>Overlift (mm)</source>
-        <translation type="unfinished">上限 (mm)</translation>
+        <translation type="unfinished">抬升 (mm)</translation>
     </message>
     <message>
         <location filename="dlgcyclesettings.ui" line="173"/>
@@ -2342,12 +2342,12 @@ This will be the altitude for the next layer.
     <message>
         <location filename="dlgmaterialsmanager.ui" line="26"/>
         <source>Select Material</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">选择打印原料</translation>
     </message>
     <message>
         <location filename="dlgmaterialsmanager.ui" line="38"/>
         <source>Material ID:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">原料ID:</translation>
     </message>
     <message>
         <location filename="dlgmaterialsmanager.ui" line="51"/>
@@ -2362,7 +2362,7 @@ This will be the altitude for the next layer.
     <message>
         <location filename="dlgmaterialsmanager.ui" line="67"/>
         <source>Description:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">描述:</translation>
     </message>
     <message>
         <location filename="dlgmaterialsmanager.ui" line="144"/>
@@ -2379,7 +2379,7 @@ This will be the altitude for the next layer.
     <message>
         <location filename="dlgmaterialsmanager.ui" line="163"/>
         <source>Add...</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">添加</translation>
     </message>
     <message>
         <location filename="dlgmaterialsmanager.ui" line="176"/>
@@ -2394,7 +2394,7 @@ This will be the altitude for the next layer.
     <message>
         <location filename="dlgmaterialsmanager.ui" line="182"/>
         <source>Duplicate...</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">复制</translation>
     </message>
     <message>
         <location filename="dlgmaterialsmanager.ui" line="195"/>
@@ -2405,17 +2405,17 @@ This will be the altitude for the next layer.
     <message>
         <location filename="dlgmaterialsmanager.ui" line="201"/>
         <source>Delete Selected</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">删除</translation>
     </message>
     <message>
         <location filename="dlgmaterialsmanager.ui" line="211"/>
         <source>Material Eposure Settings</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">原料曝光参数设置</translation>
     </message>
     <message>
         <location filename="dlgmaterialsmanager.ui" line="217"/>
         <source>Selected XY Pixel Resolution Table</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">选择XY像素解析度</translation>
     </message>
     <message>
         <location filename="dlgmaterialsmanager.ui" line="224"/>
@@ -2430,7 +2430,7 @@ This will be the altitude for the next layer.
     <message>
         <location filename="dlgmaterialsmanager.ui" line="234"/>
         <source>First (attach) Layer(s) Cure Time(sec):</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">第一层曝光时间:</translation>
     </message>
     <message>
         <location filename="dlgmaterialsmanager.ui" line="241"/>
@@ -2445,7 +2445,7 @@ This will be the altitude for the next layer.
     <message>
         <location filename="dlgmaterialsmanager.ui" line="263"/>
         <source>Number of First (attach) Layers:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">第一层层数:</translation>
     </message>
     <message>
         <location filename="dlgmaterialsmanager.ui" line="270"/>
@@ -2456,7 +2456,7 @@ This will be the altitude for the next layer.
     <message>
         <location filename="dlgmaterialsmanager.ui" line="286"/>
         <source>For the selected XY Pixel Resolution Table, enter the base exposure time and the additional over cure exposure time for each layer.  Enter Zero if printing at this layer thickness is not allowed.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">为选择的XY解析度设置基本曝光时间和边缘曝光时间，如果打印厚度不容易请设置0</translation>
     </message>
     <message>
         <location filename="dlgmaterialsmanager.ui" line="296"/>
@@ -2492,7 +2492,7 @@ This will be the altitude for the next layer.
     <message>
         <location filename="dlgmaterialsmanager.cpp" line="284"/>
         <source>Are you sure you wish to delete this material from the Catalog?</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">确定删除该材料?</translation>
     </message>
     <message>
         <location filename="dlgmaterialsmanager.cpp" line="300"/>
@@ -2506,29 +2506,29 @@ This will be the altitude for the next layer.
         <location filename="dlgmaterialsmanager.cpp" line="301"/>
         <location filename="dlgmaterialsmanager.cpp" line="350"/>
         <source>Enter a short unique Identifier for this Material:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">请为材料输入一个唯一的编号:</translation>
     </message>
     <message>
         <location filename="dlgmaterialsmanager.cpp" line="305"/>
         <location filename="dlgmaterialsmanager.cpp" line="332"/>
         <source>Duplicate Material ID!</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">复制材料ID!</translation>
     </message>
     <message>
         <location filename="dlgmaterialsmanager.cpp" line="310"/>
         <location filename="dlgmaterialsmanager.cpp" line="328"/>
         <source>Enter a short, unique Identifier for this Material:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">输入一个短的并唯一的材料ID</translation>
     </message>
     <message>
         <location filename="dlgmaterialsmanager.cpp" line="337"/>
         <source>Delete Factory Material</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">删除材料</translation>
     </message>
     <message>
         <location filename="dlgmaterialsmanager.cpp" line="337"/>
         <source>Are you SURE you wish to delete this factory material from the Catalog?</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">确定删除原厂材料?</translation>
     </message>
 </context>
 <context>
@@ -2610,7 +2610,7 @@ This will be the altitude for the next layer.
     <message>
         <location filename="dlgprintprep.ui" line="420"/>
         <source>Step 2 - Remove the Sweeper.</source>
-        <translation type="unfinished">第二步 - 移除清扫器</translation>
+        <translation type="unfinished">第二步 - 移除扫刮器</translation>
     </message>
     <message>
         <location filename="dlgprintprep.ui" line="423"/>
@@ -2620,7 +2620,7 @@ This will be the altitude for the next layer.
     <message>
         <location filename="dlgprintprep.ui" line="426"/>
         <source>Step 2 - Ensure the VAT and Build Table are in place and the Sweeper is REMOVED.</source>
-        <translation type="unfinished">第二步 - 确保VAT和构建表到位，清洁器已经移除</translation>
+        <translation type="unfinished">第二步 - 确保料盒和构建器安装到位，扫刮器已经移除</translation>
     </message>
     <message>
         <location filename="dlgprintprep.ui" line="433"/>
@@ -2635,7 +2635,7 @@ This will be the altitude for the next layer.
     <message>
         <location filename="dlgprintprep.ui" line="439"/>
         <source>Step 3 - Command a reset and positioning of the Build Table to the resin &quot;Fill Level&quot;.</source>
-        <translation type="unfinished">第三步 - 重置构建器的位置至树脂满的的位置</translation>
+        <translation type="unfinished">第三步 - 点击这里重置答应机，并移动构建器的位置至装料的位置</translation>
     </message>
     <message>
         <location filename="dlgprintprep.ui" line="446"/>
@@ -2650,7 +2650,7 @@ This will be the altitude for the next layer.
     <message>
         <location filename="dlgprintprep.ui" line="452"/>
         <source>Step 4 - Add the material to the VAT.  Fill up to, BUT NOT ABOVE, the BOTTOM of the Build Table.</source>
-        <translation type="unfinished">第四步 - 添加打印料到VAT，填满，但是不要超过构建器的底部</translation>
+        <translation type="unfinished">第四步 - 添加打印料到料盒，不要超过构建器的底部</translation>
     </message>
     <message>
         <location filename="dlgprintprep.ui" line="459"/>
@@ -2661,7 +2661,7 @@ This will be the altitude for the next layer.
     <message>
         <location filename="dlgprintprep.ui" line="465"/>
         <source>Step 5 - Install the Sweeper and close the hatch.  You should be ready to begin!</source>
-        <translation type="unfinished">第五步 - 安装清洁器并关闭舱门，现在你可以开始打印了</translation>
+        <translation type="unfinished">第五步 - 安装扫刮器并关闭舱门，现在你可以开始打印了</translation>
     </message>
     <message>
         <location filename="dlgprintprep.ui" line="478"/>
@@ -2779,7 +2779,7 @@ This will be the altitude for the next layer.
     <message>
         <location filename="dlgprintprep.ui" line="1098"/>
         <source>Initial Image Exposure (sec)</source>
-        <translation type="unfinished">初始图像曝光时间</translation>
+        <translation type="unfinished">图像曝光时间</translation>
     </message>
     <message>
         <location filename="dlgprintprep.ui" line="1176"/>
@@ -2790,7 +2790,7 @@ This will be the altitude for the next layer.
     <message>
         <location filename="dlgprintprep.ui" line="1182"/>
         <source>Variable Perimeter Exposure (sec)</source>
-        <translation type="unfinished">曝光时间</translation>
+        <translation type="unfinished">边缘曝光时间</translation>
     </message>
     <message>
         <location filename="dlgprintprep.ui" line="1272"/>
@@ -2888,7 +2888,7 @@ Reset the Printer now?</source>
     <message>
         <location filename="mainwindow.ui" line="78"/>
         <source>B9Creator</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">涛峰科技3D打印机</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="101"/>
@@ -3046,7 +3046,7 @@ Reset the Printer now?</source>
     <message>
         <location filename="helpsystem.cpp" line="89"/>
         <source>B9Creator - 3D Printer</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">涛峰科技 - 3D打印机</translation>
     </message>
     <message>
         <location filename="helpsystem.cpp" line="90"/>
@@ -3473,34 +3473,34 @@ Reset the Printer now?</source>
     <message>
         <location filename="dlgcalbuildtable.ui" line="20"/>
         <source>Calibration - Build Table</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">校正构建台</translation>
     </message>
     <message>
         <location filename="dlgcalbuildtable.ui" line="26"/>
         <source>Calibrate the Build Table to be flush with the PDMS Vat Floor</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">校正构建台使其贴合料盒底部</translation>
     </message>
     <message>
         <location filename="dlgcalbuildtable.ui" line="73"/>
         <source>Instructions</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">提示</translation>
     </message>
     <message>
         <location filename="dlgcalbuildtable.ui" line="76"/>
         <source>Instructions - For more detailed information visit www.b9creator.com</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">提示:了解更多的详细信息请参照说明书</translation>
     </message>
     <message>
         <location filename="dlgcalbuildtable.ui" line="79"/>
         <source>The purpose of the Build Table Calibration is to ensure the Build Table is flush against the PDMS floor of the VAT when commanded to the &quot;Zero&quot; height position.
 
 This calibration should be preformed when a new or re-coated VAT is put into service.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">校正构建台的目的是为了Z轴0位置的时候构建台的底板贴合料盒，当你更换一个新的料盒的时候应该重新校正这个位置</translation>
     </message>
     <message>
         <location filename="dlgcalbuildtable.ui" line="89"/>
         <source>Step 1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">第一步</translation>
     </message>
     <message>
         <location filename="dlgcalbuildtable.ui" line="92"/>
@@ -3510,7 +3510,7 @@ This calibration should be preformed when a new or re-coated VAT is put into ser
     <message>
         <location filename="dlgcalbuildtable.ui" line="95"/>
         <source>Step 1- Ensure the VAT is installed and the Sweeper is REMOVED.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">第一步，安装料盒并移除扫刮器</translation>
     </message>
     <message>
         <location filename="dlgcalbuildtable.ui" line="100"/>
@@ -3525,7 +3525,7 @@ This calibration should be preformed when a new or re-coated VAT is put into ser
     <message>
         <location filename="dlgcalbuildtable.ui" line="106"/>
         <source>Step 2 - Loosen all four build table adjustment screws using a 7/64&quot; allen (hex) wrench and install it on the arm.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">第二步，松掉构建台四个角的螺丝，然后把构建台安装上打印机</translation>
     </message>
     <message>
         <location filename="dlgcalbuildtable.ui" line="111"/>
@@ -3540,7 +3540,7 @@ This calibration should be preformed when a new or re-coated VAT is put into ser
     <message>
         <location filename="dlgcalbuildtable.ui" line="117"/>
         <source>Step 3 - Click here to command the printer to locate the Home position (Arm and VAT will move!)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">第三步，点击这里使打印机回到HOME 位</translation>
     </message>
     <message>
         <location filename="dlgcalbuildtable.ui" line="131"/>
@@ -3555,7 +3555,7 @@ This calibration should be preformed when a new or re-coated VAT is put into ser
     <message>
         <location filename="dlgcalbuildtable.ui" line="137"/>
         <source>Step 4 - Click here to command the printer to open the VAT and lower the build table to &quot;Zero&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">点击这里打开料盒，构建台会至0位</translation>
     </message>
     <message>
         <location filename="dlgcalbuildtable.ui" line="142"/>
@@ -3570,7 +3570,7 @@ This calibration should be preformed when a new or re-coated VAT is put into ser
     <message>
         <location filename="dlgcalbuildtable.ui" line="148"/>
         <source>Step 5 - Ensure the bottom of the Build Table is sitting flush on the PDMS.  Tighten all four build table adjustment screws.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">第五步，确保构建台的底部贴合住料盒，调整四个角的螺丝</translation>
     </message>
     <message>
         <location filename="dlgcalbuildtable.ui" line="153"/>
@@ -3585,7 +3585,7 @@ This calibration should be preformed when a new or re-coated VAT is put into ser
     <message>
         <location filename="dlgcalbuildtable.ui" line="159"/>
         <source>Step 6 - REMOVE the Build Table Thumbscrew.  This is important!  Failure to do so may damage the PDMS when the arm lifts.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">第六步，移除构建台上部的指旋螺丝，这个很重要，否则当抬臂升起的时候可能会损害料盒</translation>
     </message>
     <message>
         <location filename="dlgcalbuildtable.ui" line="164"/>
@@ -3600,7 +3600,7 @@ This calibration should be preformed when a new or re-coated VAT is put into ser
     <message>
         <location filename="dlgcalbuildtable.ui" line="170"/>
         <source>Step 7 - Click here to command the printer to raise the arm out of the way.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">第七步，点击这里升起抬臂</translation>
     </message>
     <message>
         <location filename="dlgcalbuildtable.ui" line="175"/>
@@ -3615,12 +3615,12 @@ This calibration should be preformed when a new or re-coated VAT is put into ser
     <message>
         <location filename="dlgcalbuildtable.ui" line="181"/>
         <source>Step 8 - After the arm is clear, carefully lift the Build Table from the PDMS and fully tighten all four screws.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">第八步，当抬臂停止后，从料盒中拿出构建台，并用力拧紧角上的四个螺丝</translation>
     </message>
     <message>
         <location filename="dlgcalbuildtable.ui" line="192"/>
         <source>Status:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">状态:</translation>
     </message>
     <message>
         <location filename="dlgcalbuildtable.ui" line="272"/>
@@ -3630,17 +3630,17 @@ This calibration should be preformed when a new or re-coated VAT is put into ser
     <message>
         <location filename="dlgcalbuildtable.ui" line="275"/>
         <source>Status - reports if printer is in motion or read for input.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">显示打印机的状态</translation>
     </message>
     <message>
         <location filename="dlgcalbuildtable.ui" line="278"/>
         <source>Ready...</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">就绪</translation>
     </message>
     <message>
         <location filename="dlgcalbuildtable.ui" line="301"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">取消</translation>
     </message>
 </context>
 <context>
@@ -3648,12 +3648,12 @@ This calibration should be preformed when a new or re-coated VAT is put into ser
     <message>
         <location filename="dlgcalprojector.ui" line="20"/>
         <source>Calibrate XY Resolution (Projector)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">校正投影仪的X,Y解析度</translation>
     </message>
     <message>
         <location filename="dlgcalprojector.ui" line="39"/>
         <source>Status:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">状态:</translation>
     </message>
     <message>
         <location filename="dlgcalprojector.ui" line="119"/>
@@ -3671,7 +3671,7 @@ This calibration should be preformed when a new or re-coated VAT is put into ser
         <location filename="dlgcalprojector.ui" line="125"/>
         <location filename="dlgcalprojector.ui" line="305"/>
         <source>Ready...</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">就绪</translation>
     </message>
     <message>
         <location filename="dlgcalprojector.ui" line="135"/>
@@ -3691,17 +3691,17 @@ This calibration should be preformed when a new or re-coated VAT is put into ser
     <message>
         <location filename="dlgcalprojector.ui" line="148"/>
         <source>Calibrate the Projector for the desired XY Pixel Resolution</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">校正投影仪</translation>
     </message>
     <message>
         <location filename="dlgcalprojector.ui" line="191"/>
         <source>Instructions</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">说明</translation>
     </message>
     <message>
         <location filename="dlgcalprojector.ui" line="194"/>
         <source>Instructions - For more detailed information visit www.b9creator.com</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">说明-了解更多信息请参考说明书</translation>
     </message>
     <message>
         <location filename="dlgcalprojector.ui" line="197"/>
@@ -3718,27 +3718,37 @@ The 3 XY Pixel resolution options are:
 
 Ensure the Projector is connected via VGA or HDMI cable and display is set to &quot;Extended&quot; Mode.
 </source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">校正投影机的目的是为了确保投影的图像正确聚焦并且像素匹配上我们选择的像素大小.  这是通过将网格图形投射在构建台上，对照打印好网格模板，调整,变焦和聚焦投影仪使其投影网格图像匹配上打印在纸上网格模板。
+
+
+你可以选择最适合的解析度.  高解析度可以打印出精度更高的产品，但是打印大小会受到限制
+
+有 三种 XY 像素解析度可供选择:
+   高 - 50 micron pixels - 打印大小  51.2 x 38.4 x200 mm (2&quot; x 1.5&quot; x 8&quot;)
+   中 - 75 micron pixels - 打印大小 76.8 x 57.6 x 200 mm (3&quot; x 2.27&quot; x 8&quot;)
+   低 - 100 micron pixels - 打印大小 102.4 x 76.8 x 200 mm (4&quot; x 3&quot; x 8&quot;)
+
+</translation>
     </message>
     <message>
         <location filename="dlgcalprojector.ui" line="219"/>
         <source>Projector Connection Status:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">投影仪连接状态</translation>
     </message>
     <message>
         <location filename="dlgcalprojector.ui" line="321"/>
         <source>Step 1 - Select the desired XY Pixel Resolution:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">第一步，选择需要的XY像素解析度</translation>
     </message>
     <message>
         <location filename="dlgcalprojector.ui" line="334"/>
         <source>XY Pixel Size</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">XY 像素大小</translation>
     </message>
     <message>
         <location filename="dlgcalprojector.ui" line="337"/>
         <source>Set the desired XY Pixel Size for this calibration.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">设置需要的XY 像素大小</translation>
     </message>
     <message>
         <location filename="dlgcalprojector.ui" line="341"/>
@@ -3758,7 +3768,7 @@ Ensure the Projector is connected via VGA or HDMI cable and display is set to &q
     <message>
         <location filename="dlgcalprojector.ui" line="359"/>
         <source>Step 1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">第一步</translation>
     </message>
     <message>
         <location filename="dlgcalprojector.ui" line="362"/>
@@ -3768,7 +3778,7 @@ Ensure the Projector is connected via VGA or HDMI cable and display is set to &q
     <message>
         <location filename="dlgcalprojector.ui" line="365"/>
         <source>Step 2 - Ensure the VAT is in place and the Build Table and Sweeper are removed.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">第二步，保料盒已经安装并且构建太和扫刮器已经移除</translation>
     </message>
     <message>
         <location filename="dlgcalprojector.ui" line="372"/>
@@ -3783,17 +3793,17 @@ Ensure the Projector is connected via VGA or HDMI cable and display is set to &q
     <message>
         <location filename="dlgcalprojector.ui" line="378"/>
         <source>Step 3 - Loosen the 4 screws on the back of the printer that hold projector in place.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">第三步，松掉固定投影仪的四个螺丝</translation>
     </message>
     <message>
         <location filename="dlgcalprojector.ui" line="385"/>
         <source>Note:  The next step may take a few minutes as the projector warms up. </source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">提示:投影仪预热可能需要几分钟时间</translation>
     </message>
     <message>
         <location filename="dlgcalprojector.ui" line="398"/>
         <source>(If using a single video output and spliter setup then see the web site for additional documentation.)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"> </translation>
     </message>
     <message>
         <location filename="dlgcalprojector.ui" line="405"/>
@@ -3808,7 +3818,7 @@ Ensure the Projector is connected via VGA or HDMI cable and display is set to &q
     <message>
         <location filename="dlgcalprojector.ui" line="411"/>
         <source>Step 4 - Click to power up the projector, reset the printer and open the VAT.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">点击这里打开投影仪，重置打印机位置并打开料盒</translation>
     </message>
     <message>
         <location filename="dlgcalprojector.ui" line="418"/>
@@ -3823,12 +3833,12 @@ Ensure the Projector is connected via VGA or HDMI cable and display is set to &q
     <message>
         <location filename="dlgcalprojector.ui" line="424"/>
         <source>Step 5 - Adjust the Zoom, Focus and Position of the projector until the projector grid matches the paper template grid.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">第五步，调整镜头焦距和位置，直到投影在料盒上的图案匹配上校正模板纸的图案</translation>
     </message>
     <message>
         <location filename="dlgcalprojector.ui" line="437"/>
         <source>(The paper template should be placed printed side up on the bottom of the vat and aligned with the projected grid manually.)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">提示:校正模板纸使用安装目录pdf文件打印</translation>
     </message>
     <message>
         <location filename="dlgcalprojector.ui" line="444"/>
@@ -3843,7 +3853,7 @@ Ensure the Projector is connected via VGA or HDMI cable and display is set to &q
     <message>
         <location filename="dlgcalprojector.ui" line="450"/>
         <source>Step 6 - Tighten the 4 projector screws and double check the projected image and focus.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">第六步，拧紧投影仪的四个螺丝，确保图像已经校准</translation>
     </message>
     <message>
         <location filename="dlgcalprojector.ui" line="457"/>
@@ -3858,7 +3868,7 @@ Ensure the Projector is connected via VGA or HDMI cable and display is set to &q
     <message>
         <location filename="dlgcalprojector.ui" line="463"/>
         <source>Step 7 - Click here to turn off the projector.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">第七步，点击这里关闭投影仪</translation>
     </message>
 </context>
 </TS>
